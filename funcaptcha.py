@@ -2,11 +2,8 @@
 ## twitter.com/h0nde
 ## 2020-09-06
 
-## This library was mostly used with the Roblox iOS app's specifics
+## This library was mostly used with the Roblox iOS app's specifics in mind
 ## so you may need to look out for certain changes that were introduced with that
-
-## As you may notice on line 546, FC has started to analyze the way the POST query is url-encoded on some endpoints, and begun started blocking solves based on that
-## I'll implement a real solution for it sometime later.
 
 import http.client
 import json
