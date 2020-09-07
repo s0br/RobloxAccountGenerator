@@ -1,0 +1,16 @@
+generator:
+  username: "burger_[a-zA-Z0-9]{5}"
+  password: "[a-zA-Z0-9_]{20}"
+
+threads:
+  solver: 100
+  resubmitter: 100
+  main: 100
+
+solver:
+  hash_length: 6
+  hash_method: average_hash
+  mask: true
+
+misc:
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
